@@ -1,0 +1,10 @@
+<div>
+  <h2>Attribute Directive</h2>
+  <p style="color: red">This is inline cs rules</p>
+  <p [ngStyle]="{'color':'red'}">This is angular ngStyle attribute</p>
+  <p [ngStyle]="styleVariable">This is angular ngStyle attribute with variable</p>
+  <p [ngClass]="{abc:true, xyz:false}">This is ngClass atribute from angular</p>
+  <p [ngClass]="{abc:false, xyz:true}">This is ngClass atribute from angular</p>
+  <input type="button" (click)="changeCSSRules()" value="click here">
+  <div [ngClass]="{abc:f1,xyz:f2}">Welcome to Angular with ngClass with dynamic css effect</div>
+</div>

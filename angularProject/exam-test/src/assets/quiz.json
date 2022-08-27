@@ -1,0 +1,82 @@
+[
+  {
+    "qnumber": 1,
+    "question": "4+5",
+    "ans1": "9",
+    "ans2": "8",
+    "ans3": "10",
+    "ans4": "7"
+  },
+  {
+    "qnumber": 2,
+    "question": "ng means",
+    "ans1": "not getting",
+    "ans2": "next going",
+    "ans3": "next generation",
+    "ans4": "no generation"
+  },
+  {
+    "qnumber": 3,
+    "question": "What does CSS stand for?",
+    "ans1": "Creative Style Sheets",
+    "ans2": "Computer Style Sheets",
+    "ans3": "Colorful Style Sheets",
+    "ans4": "Cascading Style Sheets"
+  },
+  {
+    "qnumber": 4,
+    "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+    "ans1": "In the 'head' section",
+    "ans2": "At the end of the document",
+    "ans3": "In the 'body section",
+    "ans4": "Anywhere you like"
+  },
+  {
+    "qnumber": 5,
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "ans1": "script",
+    "ans2": "style",
+    "ans3": "css",
+    "ans4": "sheet"
+  },
+  {
+    "qnumber": 6,
+    "question": "Which HTML attribute is used to define inline styles?",
+    "ans1": "class",
+    "ans2": "styles",
+    "ans3": "font",
+    "ans4": "style"
+  },
+  {
+    "qnumber": 7,
+    "question": "Which CSS property is used to change the text color of an element?",
+    "ans1": "text-color",
+    "ans2": "fgcolor",
+    "ans3": "color",
+    "ans4": "tcolor"
+  },
+  {
+    "qnumber": 8,
+    "question": "Which CSS property controls the text size?",
+    "ans1": "text-size",
+    "ans2": "font-size",
+    "ans3": "font-style",
+    "ans4": "text-style"
+  },
+  {
+    "qnumber": 9,
+    "question": "What does SQL stand for?",
+    "ans1": "Structured Question Language",
+    "ans2": "Structured Query Language",
+    "ans3": "Strong Question Language",
+    "ans4": "Strong Query Language"
+  },
+  {
+    "qnumber": 10,
+    "question": "Which SQL statement is used to extract data from a database?",
+    "ans1": "SELECT",
+    "ans2": "EXTRACT",
+    "ans3": "OPEN",
+    "ans4": "GET"
+  }
+]

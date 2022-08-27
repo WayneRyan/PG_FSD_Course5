@@ -1,0 +1,16 @@
+Your Score is {{score}} out of {{correct_answers.length}}<br><br>
+<ol>
+  <li *ngFor="let correct_answer of correct_answers">
+    <div *ngIf="answers.has(correct_answer.qnumber);then response else empty"></div>
+    <ng-template #empty>You did not answer this question.</ng-template>
+    <ng-template #response>
+      <div *ngIf="answers.get(correct_answer.qnumber) == correct_answer.answer;then correct else wrong"></div>
+      The Correct answer is: {{correct_answer.answer}}
+    </ng-template>
+    <ng-template #correct><i class="fa-solid fa-check"></i>Good Job!</ng-template>
+    <ng-template #wrong>
+      <i class="fa-solid fa-xmark"></i>Your answer was {{answers.get(correct_answer.qnumber)}}<br>
+    </ng-template>
+  </li>
+</ol>
+
