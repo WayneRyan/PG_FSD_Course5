@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var abc_1 = require("./abc");
+var xyz_1 = require("./xyz");
+var abc_2 = require("./abc");
+var xyz_2 = require("./xyz");
+var obj = require("./mno");
+(0, abc_1.display1)();
+(0, xyz_1.display2)();
+(0, abc_2.display)();
+(0, xyz_2.display)();
+obj.dis1();
+obj.dis2();
+obj.dis3();
+obj.dis4();
